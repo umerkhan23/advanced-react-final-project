@@ -14,7 +14,7 @@ const Footer = () => {
           maxWidth="1024px"
           height={16}
         >
-          <p>Muhammad Umer Khan • © 2022</p>
+          <p>Muhammad Umer Khan • © 2023</p>
         </Flex>
       </footer>
     </Box>
