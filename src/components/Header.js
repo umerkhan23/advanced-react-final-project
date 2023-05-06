@@ -1,11 +1,11 @@
 import React, { useEffect, useRef } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faT } from "@fortawesome/free-solid-svg-icons";
 import {
   faGithub,
   faLinkedin,
-  faMedium,
-  faStackOverflow,
+  faTwitter,
+  faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 import { Box, HStack } from "@chakra-ui/react";
 
@@ -23,12 +23,12 @@ const socials = [
     url: "https://www.linkedin.com",
   },
   {
-    icon: faMedium,
-    url: "https://medium.com",
+    icon: faTwitter,
+    url: "https://twitter.com",
   },
   {
-    icon: faStackOverflow,
-    url: "https://stackoverflow.com",
+    icon: faInstagram,
+    url: "https://instagram.com",
   },
 ];
 
